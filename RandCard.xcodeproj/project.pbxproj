@@ -1,0 +1,386 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D04F0DE1EC32D2600B42243 /* PrizeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D04F0DD1EC32D2600B42243 /* PrizeTableViewController.m */; };
+		2D1444A71E69853C0051B395 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D1444A61E69853C0051B395 /* main.m */; };
+		2D1444AA1E69853C0051B395 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D1444A91E69853C0051B395 /* AppDelegate.m */; };
+		2D1444AD1E69853C0051B395 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D1444AC1E69853C0051B395 /* ViewController.m */; };
+		2D1444B01E69853C0051B395 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D1444AE1E69853C0051B395 /* Main.storyboard */; };
+		2D1444B21E69853C0051B395 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D1444B11E69853C0051B395 /* Assets.xcassets */; };
+		2D1444B51E69853C0051B395 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D1444B31E69853C0051B395 /* LaunchScreen.storyboard */; };
+		2D1444C31E6987180051B395 /* Cards.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D1444C21E6987180051B395 /* Cards.m */; };
+		2D7AF9721ED70A870047F8B3 /* PlayerData.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D7AF9711ED70A870047F8B3 /* PlayerData.m */; };
+		2D89C0E91EB92864007733DA /* Scores.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2D89C0E71EB92864007733DA /* Scores.xcdatamodeld */; };
+		2DE1E78A1EBB35CF0086D50E /* ScoresTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE1E7891EBB35CF0086D50E /* ScoresTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2D04F0DC1EC32D2600B42243 /* PrizeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PrizeTableViewController.h; path = ViewController/PrizeTableViewController.h; sourceTree = "<group>"; };
+		2D04F0DD1EC32D2600B42243 /* PrizeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PrizeTableViewController.m; path = ViewController/PrizeTableViewController.m; sourceTree = "<group>"; };
+		2D1444A21E69853C0051B395 /* RandCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D1444A61E69853C0051B395 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2D1444A81E69853C0051B395 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2D1444A91E69853C0051B395 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2D1444AB1E69853C0051B395 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ViewController/ViewController.h; sourceTree = "<group>"; };
+		2D1444AC1E69853C0051B395 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ViewController/ViewController.m; sourceTree = "<group>"; };
+		2D1444AF1E69853C0051B395 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2D1444B11E69853C0051B395 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2D1444B41E69853C0051B395 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2D1444B61E69853C0051B395 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D1444C11E6987180051B395 /* Cards.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Cards.h; path = Model/Cards.h; sourceTree = "<group>"; };
+		2D1444C21E6987180051B395 /* Cards.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Cards.m; path = Model/Cards.m; sourceTree = "<group>"; };
+		2D7AF9701ED70A870047F8B3 /* PlayerData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayerData.h; path = Model/PlayerData.h; sourceTree = "<group>"; };
+		2D7AF9711ED70A870047F8B3 /* PlayerData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayerData.m; path = Model/PlayerData.m; sourceTree = "<group>"; };
+		2D89C0E81EB92864007733DA /* Scores.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Scores.xcdatamodel; sourceTree = "<group>"; };
+		2DE1E7881EBB35CF0086D50E /* ScoresTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScoresTableViewController.h; path = ViewController/ScoresTableViewController.h; sourceTree = "<group>"; };
+		2DE1E7891EBB35CF0086D50E /* ScoresTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ScoresTableViewController.m; path = ViewController/ScoresTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D14449F1E69853C0051B395 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D1444991E69853C0051B395 = {
+			isa = PBXGroup;
+			children = (
+				2D1444A41E69853C0051B395 /* RandCard */,
+				2D1444A31E69853C0051B395 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D1444A31E69853C0051B395 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D1444A21E69853C0051B395 /* RandCard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D1444A41E69853C0051B395 /* RandCard */ = {
+			isa = PBXGroup;
+			children = (
+				2D1444A81E69853C0051B395 /* AppDelegate.h */,
+				2D1444A91E69853C0051B395 /* AppDelegate.m */,
+				2D7AF96F1ED709B70047F8B3 /* Model */,
+				2D96558B1ED83BDD005CC41D /* ViewController */,
+				2D89C0E71EB92864007733DA /* Scores.xcdatamodeld */,
+				2D1444AE1E69853C0051B395 /* Main.storyboard */,
+				2D1444B11E69853C0051B395 /* Assets.xcassets */,
+				2D1444B31E69853C0051B395 /* LaunchScreen.storyboard */,
+				2D1444B61E69853C0051B395 /* Info.plist */,
+				2D1444A51E69853C0051B395 /* Supporting Files */,
+			);
+			path = RandCard;
+			sourceTree = "<group>";
+		};
+		2D1444A51E69853C0051B395 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D1444A61E69853C0051B395 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2D7AF96F1ED709B70047F8B3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2D1444C11E6987180051B395 /* Cards.h */,
+				2D1444C21E6987180051B395 /* Cards.m */,
+				2D7AF9701ED70A870047F8B3 /* PlayerData.h */,
+				2D7AF9711ED70A870047F8B3 /* PlayerData.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+			usesTabs = 0;
+		};
+		2D96558B1ED83BDD005CC41D /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2D1444AB1E69853C0051B395 /* ViewController.h */,
+				2D1444AC1E69853C0051B395 /* ViewController.m */,
+				2D04F0DC1EC32D2600B42243 /* PrizeTableViewController.h */,
+				2D04F0DD1EC32D2600B42243 /* PrizeTableViewController.m */,
+				2DE1E7881EBB35CF0086D50E /* ScoresTableViewController.h */,
+				2DE1E7891EBB35CF0086D50E /* ScoresTableViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D1444A11E69853C0051B395 /* RandCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D1444B91E69853C0051B395 /* Build configuration list for PBXNativeTarget "RandCard" */;
+			buildPhases = (
+				2D14449E1E69853C0051B395 /* Sources */,
+				2D14449F1E69853C0051B395 /* Frameworks */,
+				2D1444A01E69853C0051B395 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RandCard;
+			productName = RandCard;
+			productReference = 2D1444A21E69853C0051B395 /* RandCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D14449A1E69853C0051B395 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Max Koryakin";
+				TargetAttributes = {
+					2D1444A11E69853C0051B395 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = NTZC7MC6N9;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2D14449D1E69853C0051B395 /* Build configuration list for PBXProject "RandCard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D1444991E69853C0051B395;
+			productRefGroup = 2D1444A31E69853C0051B395 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D1444A11E69853C0051B395 /* RandCard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D1444A01E69853C0051B395 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D1444B51E69853C0051B395 /* LaunchScreen.storyboard in Resources */,
+				2D1444B21E69853C0051B395 /* Assets.xcassets in Resources */,
+				2D1444B01E69853C0051B395 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D14449E1E69853C0051B395 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D1444AD1E69853C0051B395 /* ViewController.m in Sources */,
+				2D1444AA1E69853C0051B395 /* AppDelegate.m in Sources */,
+				2D1444A71E69853C0051B395 /* main.m in Sources */,
+				2D7AF9721ED70A870047F8B3 /* PlayerData.m in Sources */,
+				2DE1E78A1EBB35CF0086D50E /* ScoresTableViewController.m in Sources */,
+				2D89C0E91EB92864007733DA /* Scores.xcdatamodeld in Sources */,
+				2D04F0DE1EC32D2600B42243 /* PrizeTableViewController.m in Sources */,
+				2D1444C31E6987180051B395 /* Cards.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2D1444AE1E69853C0051B395 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D1444AF1E69853C0051B395 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2D1444B31E69853C0051B395 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D1444B41E69853C0051B395 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2D1444B71E69853C0051B395 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2D1444B81E69853C0051B395 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D1444BA1E69853C0051B395 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = NTZC7MC6N9;
+				INFOPLIST_FILE = RandCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = emkey.RandCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2D1444BB1E69853C0051B395 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = NTZC7MC6N9;
+				INFOPLIST_FILE = RandCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = emkey.RandCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D14449D1E69853C0051B395 /* Build configuration list for PBXProject "RandCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D1444B71E69853C0051B395 /* Debug */,
+				2D1444B81E69853C0051B395 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D1444B91E69853C0051B395 /* Build configuration list for PBXNativeTarget "RandCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D1444BA1E69853C0051B395 /* Debug */,
+				2D1444BB1E69853C0051B395 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2D89C0E71EB92864007733DA /* Scores.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2D89C0E81EB92864007733DA /* Scores.xcdatamodel */,
+			);
+			currentVersion = 2D89C0E81EB92864007733DA /* Scores.xcdatamodel */;
+			path = Scores.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2D14449A1E69853C0051B395 /* Project object */;
+}
